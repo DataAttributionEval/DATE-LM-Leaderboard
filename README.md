@@ -30,7 +30,7 @@ Each category contains 3 leaderboards, as indicated below.
 | Applications (Factual Attribution) | Factual Attribution                                 |
 
 Details on the tasks corresponding to each leaderboard as well as their code pipelines
-can be found in the DATE-LM paper and [Github repo](https://github.com/cxcscmu/data-attribution-evaluation).
+can be found in the DATE-LM paper and [Github repo](https://github.com/DataAttributionEval/DATE-LM).
 
 ## Submission
 
