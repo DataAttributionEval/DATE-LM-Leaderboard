@@ -1,0 +1,7 @@
+[
+    {"Rank": 0, "Method": "Random", "Attribution Method Type": "Other", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 0.602, "GSM8K": 0.596, "BBH": 0.653, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "BM25", "Attribution Method Type": "Lexical", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 0, "GSM8K": 0, "BBH": 0, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Rep Sim", "Attribution Method Type": "Similarity", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 0, "GSM8K": 0, "BBH": 0, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 0, "GSM8K": 0, "BBH": 0, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS (optimizer)", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 0, "GSM8K": 0, "BBH": 0, "Paper/Code/Contact Link": ""}
+]

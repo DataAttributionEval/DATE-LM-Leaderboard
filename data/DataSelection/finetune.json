@@ -1,0 +1,8 @@
+[
+    {"Rank": 0, "Method": "Random Avg", "Attribution Method Type": "Other", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 60.2, "GSM8K": 59.6, "BBH": 65.6, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "BM25", "Attribution Method Type": "Lexical", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 59.5, "GSM8K": 60.2, "BBH": 62.5, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Rep Sim", "Attribution Method Type": "Similarity", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 61.2, "GSM8K": 59.2, "BBH": 65.9, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "RDS+", "Attribution Method Type": "Similarity", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 62.4, "GSM8K": 59.6, "BBH": 66.9, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 58.4, "GSM8K": 57.8, "BBH": 65.5, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS (optimizer)", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "MMLU": 60, "GSM8K": 59.5, "BBH": 64.2, "Paper/Code/Contact Link": ""}
+]

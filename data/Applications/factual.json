@@ -1,0 +1,23 @@
+[
+    {"Rank": 0, "Method": "BM25", "Attribution Method Type": "Lexical", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.305, "MRR": 0.771, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Rep Sim", "Attribution Method Type": "Similarity", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.376, "MRR": 0.790, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Dot", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.466, "MRR": 0.768, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.493, "MRR": 0.836, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.500, "MRR": 0.772, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "DataInf", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.472, "MRR": 0.765, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "EKFAC", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "Recall@50": 0.465, "MRR": 0.766, "Paper/Code/Contact Link": ""},
+
+    {"Rank": 0, "Method": "BM25", "Attribution Method Type": "Lexical", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.236, "MRR": 0.683, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Rep Sim", "Attribution Method Type": "Similarity", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.552, "MRR": 0.758, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Dot", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.465, "MRR": 0.786, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.584, "MRR": 0.839, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.573, "MRR": 0.807, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "DataInf", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.475, "MRR": 0.785, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "EKFAC", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "Recall@50": 0.485, "MRR": 0.881, "Paper/Code/Contact Link": ""},
+
+    {"Rank": 0, "Method": "BM25", "Attribution Method Type": "Lexical", "Model": "Llama-3.1-8B", "Model Size": "8B", "Recall@50": 0.313, "MRR": 0.826, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Rep Sim", "Attribution Method Type": "Similarity", "Model": "Llama-3.1-8B", "Model Size": "8B", "Recall@50": 0.625, "MRR": 0.965, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Dot", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "Recall@50": 0.226, "MRR": 0.303, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "Recall@50": 0.626, "MRR": 0.970, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "Recall@50": 0.491, "MRR": 0.991, "Paper/Code/Contact Link": ""}
+]

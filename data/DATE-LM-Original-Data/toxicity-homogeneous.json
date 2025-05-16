@@ -1,0 +1,27 @@
+[
+    {"Rank": 0, "Method": "GradSafe", "Attribution Method Type": "Baseline", "Model": "N/A", "Model Size": "N/A", "ToxicChat": 0.347, "XSTest-response": 0.491, "JailBreakBench": 0.802, "AUPRC": 0.546, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "OpenAI Moderation", "Attribution Method Type": "Baseline", "Model": "N/A", "Model Size": "N/A", "ToxicChat": 0.243, "XSTest-response": 0.378, "JailBreakBench": 0.187, "AUPRC": 0.269, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Llama-Guard-3-8B", "Attribution Method Type": "Baseline", "Model": "N/A", "Model Size": "N/A", "ToxicChat": 0.445, "XSTest-response": 0.916, "JailBreakBench": 0.985, "AUPRC": 0.782, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Wildguard", "Attribution Method Type": "Baseline", "Model": "N/A", "Model Size": "N/A", "ToxicChat": 0.560, "XSTest-response": 0.930, "JailBreakBench": 0.989, "AUPRC": 0.827, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "ShieldGemma-2b", "Attribution Method Type": "Baseline", "Model": "N/A", "Model Size": "N/A", "ToxicChat": 0.170, "XSTest-response": 0.740, "JailBreakBench": 0.664, "AUPRC": 0.525, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "AEGIS-Defensive", "Attribution Method Type": "Baseline", "Model": "N/A", "Model Size": "N/A", "ToxicChat": 0.376, "XSTest-response": 0.274, "JailBreakBench": 0.346, "AUPRC": 0.332, "Paper/Code/Contact Link": ""},
+
+    {"Rank": 0, "Method": "Rep-Sim", "Attribution Method Type": "Similarity", "Model": "Pythia-1b", "Model Size": "1B", "ToxicChat": 0.374, "XSTest-response": 0.657, "JailBreakBench": 0.986, "AUPRC": 0.672, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Dot", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "ToxicChat": 0.084, "XSTest-response": 0.483, "JailBreakBench": 0.999, "AUPRC": 0.522, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "ToxicChat": 0.106, "XSTest-response": 0.647, "JailBreakBench": 1.000, "AUPRC": 0.584, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "ToxicChat": 0.388, "XSTest-response": 0.724, "JailBreakBench": 1.000, "AUPRC": 0.704, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "DataInf", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "ToxicChat": 0.204, "XSTest-response": 0.487, "JailBreakBench": 0.999,  "AUPRC": 0.563, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "EKFAC", "Attribution Method Type": "Gradient", "Model": "Pythia-1b", "Model Size": "1B", "ToxicChat": 0.216, "XSTest-response": 0.497, "JailBreakBench": 1.000,  "AUPRC": 0.571, "Paper/Code/Contact Link": ""},
+
+    {"Rank": 0, "Method": "Rep-Sim", "Attribution Method Type": "Similarity", "Model": "Llama-3.2-1B", "Model Size": "1B", "ToxicChat": 0.632, "XSTest-response": 0.792, "JailBreakBench": 0.854, "AUPRC": 0.759, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Dot", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "ToxicChat": 0.212, "XSTest-response": 0.437, "JailBreakBench": 1.000, "AUPRC": 0.550, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "ToxicChat": 0.259, "XSTest-response": 0.798, "JailBreakBench": 1.000, "AUPRC": 0.686, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "ToxicChat": 0.294, "XSTest-response": 0.792, "JailBreakBench": 1.000, "AUPRC": 0.695, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "DataInf", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "ToxicChat": 0.215, "XSTest-response": 0.442, "JailBreakBench": 1.000, "AUPRC": 0.552, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "EKFAC", "Attribution Method Type": "Gradient", "Model": "Llama-3.2-1B", "Model Size": "1B", "ToxicChat": 0.264, "XSTest-response": 0.562, "JailBreakBench": 1.000, "AUPRC": 0.609, "Paper/Code/Contact Link": ""},
+
+    {"Rank": 0, "Method": "Rep-Sim", "Attribution Method Type": "Similarity", "Model": "Llama-3.1-8B", "Model Size": "8B", "ToxicChat": 0.989, "XSTest-response": 0.999, "JailBreakBench": 0.980, "AUPRC": 0.989, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Dot", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "ToxicChat": 0.470, "XSTest-response": 0.368, "JailBreakBench": 0.274, "AUPRC": 0.371, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "Grad Sim", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "ToxicChat": 0.280, "XSTest-response": 0.603, "JailBreakBench": 0.820, "AUPRC": 0.567, "Paper/Code/Contact Link": ""},
+    {"Rank": 0, "Method": "LESS", "Attribution Method Type": "Gradient", "Model": "Llama-3.1-8B", "Model Size": "8B", "ToxicChat": 0.499, "XSTest-response": 0.615, "JailBreakBench": 0.767, "AUPRC": 0.627, "Paper/Code/Contact Link": ""}
+]

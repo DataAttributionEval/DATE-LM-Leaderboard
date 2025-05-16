@@ -1,0 +1,52 @@
+name: Merge Submission Data
+
+on:
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge_metadata:
+    if: github.event.pull_request.merged == true && contains(join(github.event.pull_request.labels.*.name, ','), 'leaderboard-submission')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Github Repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Set Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Get Changed Files
+        id: pr-files
+        run: |
+          files=$(git diff --name-only HEAD^1 HEAD)
+          echo "PR Files: ${files}"
+
+          METADATA_FILE=""
+          for file in $files; do
+            if [[ "$file" == */metadata.json ]]; then
+                METADATA_FILE="$file"
+                echo "Found metadata file: $METADATA_FILE"
+                break
+            fi
+          done
+          echo "metadata_path=$METADATA_FILE" >> $GITHUB_OUTPUT
+
+      - name: Run Data Merge Script
+        run: python scripts/merge_data.py "${{ steps.pr-files.outputs.metadata_path }}"
+
+      - name: Commit and Push Data Files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Auto-merged leaderboard data from PR #${{ github.event.pull_request.number }}"
+          git push
